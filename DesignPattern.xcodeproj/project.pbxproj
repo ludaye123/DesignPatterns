@@ -8,6 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		49496297212999A100C7242D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49496296212999A100C7242D /* main.cpp */; };
+		494962BD21299A8B00C7242D /* ConcreteProduct1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494962AF21299A8B00C7242D /* ConcreteProduct1.cpp */; };
+		494962BE21299A8B00C7242D /* ConcreteProduct3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494962B021299A8B00C7242D /* ConcreteProduct3.cpp */; };
+		494962BF21299A8B00C7242D /* ConcreteProduct2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494962B121299A8B00C7242D /* ConcreteProduct2.cpp */; };
+		494962C021299A8B00C7242D /* ConcreteProduct6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494962B221299A8B00C7242D /* ConcreteProduct6.cpp */; };
+		494962C121299A8B00C7242D /* ConcreteProduct5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494962B421299A8B00C7242D /* ConcreteProduct5.cpp */; };
+		494962C221299A8B00C7242D /* ConcreteProduct4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494962B521299A8B00C7242D /* ConcreteProduct4.cpp */; };
+		494962C321299A8B00C7242D /* Product.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494962BA21299A8B00C7242D /* Product.cpp */; };
+		494962E921299B0600C7242D /* Factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494962E721299B0600C7242D /* Factory.cpp */; };
+		494962EC21299B4400C7242D /* ConcreteFactory1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494962EA21299B4400C7242D /* ConcreteFactory1.cpp */; };
+		494962EF21299BF400C7242D /* ConcreteFactory2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494962ED21299BF400C7242D /* ConcreteFactory2.cpp */; };
+		494962F221299D4F00C7242D /* FactoryBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494962F121299D4F00C7242D /* FactoryBuilder.cpp */; };
+		494962F621299FE200C7242D /* AbstractProductA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494962F421299FE200C7242D /* AbstractProductA.cpp */; };
+		494962F92129A01A00C7242D /* ConcreteProductA1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494962F72129A01A00C7242D /* ConcreteProductA1.cpp */; };
+		494962FC2129A09700C7242D /* ConcreteProductA2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494962FA2129A09700C7242D /* ConcreteProductA2.cpp */; };
+		494962FF2129A0F600C7242D /* AbstractProductB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494962FD2129A0F600C7242D /* AbstractProductB.cpp */; };
+		494963022129A11600C7242D /* ConcreteProductB1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494963002129A11600C7242D /* ConcreteProductB1.cpp */; };
+		494963052129A12000C7242D /* ConcreteProductB2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494963032129A12000C7242D /* ConcreteProductB2.cpp */; };
+		494963082129A1BA00C7242D /* AbstractFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494963062129A1BA00C7242D /* AbstractFactory.cpp */; };
+		4949630E2129A5CC00C7242D /* ConcreteFactoryA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4949630D2129A5CC00C7242D /* ConcreteFactoryA.cpp */; };
+		494963112129A6A300C7242D /* ConcreteFactoryB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4949630F2129A6A300C7242D /* ConcreteFactoryB.cpp */; };
+		49BC7C21212EB3430099D914 /* Singleton1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49BC7C1F212EB3430099D914 /* Singleton1.cpp */; };
+		49BC7C24212EB84F0099D914 /* Singleton2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49BC7C22212EB84F0099D914 /* Singleton2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +47,50 @@
 /* Begin PBXFileReference section */
 		49496293212999A100C7242D /* DesignPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		49496296212999A100C7242D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		494962AF21299A8B00C7242D /* ConcreteProduct1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteProduct1.cpp; sourceTree = "<group>"; };
+		494962B021299A8B00C7242D /* ConcreteProduct3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteProduct3.cpp; sourceTree = "<group>"; };
+		494962B121299A8B00C7242D /* ConcreteProduct2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteProduct2.cpp; sourceTree = "<group>"; };
+		494962B221299A8B00C7242D /* ConcreteProduct6.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteProduct6.cpp; sourceTree = "<group>"; };
+		494962B321299A8B00C7242D /* Product.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Product.hpp; sourceTree = "<group>"; };
+		494962B421299A8B00C7242D /* ConcreteProduct5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteProduct5.cpp; sourceTree = "<group>"; };
+		494962B521299A8B00C7242D /* ConcreteProduct4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteProduct4.cpp; sourceTree = "<group>"; };
+		494962B621299A8B00C7242D /* ConcreteProduct1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ConcreteProduct1.hpp; sourceTree = "<group>"; };
+		494962B721299A8B00C7242D /* ConcreteProduct3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ConcreteProduct3.hpp; sourceTree = "<group>"; };
+		494962B821299A8B00C7242D /* ConcreteProduct2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ConcreteProduct2.hpp; sourceTree = "<group>"; };
+		494962B921299A8B00C7242D /* ConcreteProduct6.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ConcreteProduct6.hpp; sourceTree = "<group>"; };
+		494962BA21299A8B00C7242D /* Product.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Product.cpp; sourceTree = "<group>"; };
+		494962BB21299A8B00C7242D /* ConcreteProduct5.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ConcreteProduct5.hpp; sourceTree = "<group>"; };
+		494962BC21299A8B00C7242D /* ConcreteProduct4.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ConcreteProduct4.hpp; sourceTree = "<group>"; };
+		494962E721299B0600C7242D /* Factory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Factory.cpp; sourceTree = "<group>"; };
+		494962E821299B0600C7242D /* Factory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Factory.hpp; sourceTree = "<group>"; };
+		494962EA21299B4400C7242D /* ConcreteFactory1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteFactory1.cpp; sourceTree = "<group>"; };
+		494962EB21299B4400C7242D /* ConcreteFactory1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConcreteFactory1.hpp; sourceTree = "<group>"; };
+		494962ED21299BF400C7242D /* ConcreteFactory2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteFactory2.cpp; sourceTree = "<group>"; };
+		494962EE21299BF400C7242D /* ConcreteFactory2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConcreteFactory2.hpp; sourceTree = "<group>"; };
+		494962F021299D4F00C7242D /* FactoryBuilder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FactoryBuilder.hpp; sourceTree = "<group>"; };
+		494962F121299D4F00C7242D /* FactoryBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FactoryBuilder.cpp; sourceTree = "<group>"; };
+		494962F421299FE200C7242D /* AbstractProductA.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AbstractProductA.cpp; sourceTree = "<group>"; };
+		494962F521299FE200C7242D /* AbstractProductA.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AbstractProductA.hpp; sourceTree = "<group>"; };
+		494962F72129A01A00C7242D /* ConcreteProductA1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteProductA1.cpp; sourceTree = "<group>"; };
+		494962F82129A01A00C7242D /* ConcreteProductA1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConcreteProductA1.hpp; sourceTree = "<group>"; };
+		494962FA2129A09700C7242D /* ConcreteProductA2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteProductA2.cpp; sourceTree = "<group>"; };
+		494962FB2129A09700C7242D /* ConcreteProductA2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConcreteProductA2.hpp; sourceTree = "<group>"; };
+		494962FD2129A0F600C7242D /* AbstractProductB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AbstractProductB.cpp; sourceTree = "<group>"; };
+		494962FE2129A0F600C7242D /* AbstractProductB.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AbstractProductB.hpp; sourceTree = "<group>"; };
+		494963002129A11600C7242D /* ConcreteProductB1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteProductB1.cpp; sourceTree = "<group>"; };
+		494963012129A11600C7242D /* ConcreteProductB1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConcreteProductB1.hpp; sourceTree = "<group>"; };
+		494963032129A12000C7242D /* ConcreteProductB2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteProductB2.cpp; sourceTree = "<group>"; };
+		494963042129A12000C7242D /* ConcreteProductB2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConcreteProductB2.hpp; sourceTree = "<group>"; };
+		494963062129A1BA00C7242D /* AbstractFactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AbstractFactory.cpp; sourceTree = "<group>"; };
+		494963072129A1BA00C7242D /* AbstractFactory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AbstractFactory.hpp; sourceTree = "<group>"; };
+		4949630C2129A5CC00C7242D /* ConcreteFactoryA.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ConcreteFactoryA.hpp; sourceTree = "<group>"; };
+		4949630D2129A5CC00C7242D /* ConcreteFactoryA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteFactoryA.cpp; sourceTree = "<group>"; };
+		4949630F2129A6A300C7242D /* ConcreteFactoryB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteFactoryB.cpp; sourceTree = "<group>"; };
+		494963102129A6A300C7242D /* ConcreteFactoryB.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConcreteFactoryB.hpp; sourceTree = "<group>"; };
+		49BC7C1F212EB3430099D914 /* Singleton1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Singleton1.cpp; sourceTree = "<group>"; };
+		49BC7C20212EB3430099D914 /* Singleton1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Singleton1.hpp; sourceTree = "<group>"; };
+		49BC7C22212EB84F0099D914 /* Singleton2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Singleton2.cpp; sourceTree = "<group>"; };
+		49BC7C23212EB84F0099D914 /* Singleton2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Singleton2.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +123,85 @@
 		49496295212999A100C7242D /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				494962AD21299A8B00C7242D /* Creator */,
 				49496296212999A100C7242D /* main.cpp */,
 			);
 			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		494962AD21299A8B00C7242D /* Creator */ = {
+			isa = PBXGroup;
+			children = (
+				49BC7C1E212EB3190099D914 /* Singleton */,
+				494962F321299FBD00C7242D /* AbstractFactory */,
+				494962AE21299A8B00C7242D /* Factory */,
+			);
+			path = Creator;
+			sourceTree = "<group>";
+		};
+		494962AE21299A8B00C7242D /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				494962BA21299A8B00C7242D /* Product.cpp */,
+				494962B321299A8B00C7242D /* Product.hpp */,
+				494962AF21299A8B00C7242D /* ConcreteProduct1.cpp */,
+				494962B621299A8B00C7242D /* ConcreteProduct1.hpp */,
+				494962B121299A8B00C7242D /* ConcreteProduct2.cpp */,
+				494962B821299A8B00C7242D /* ConcreteProduct2.hpp */,
+				494962B021299A8B00C7242D /* ConcreteProduct3.cpp */,
+				494962B721299A8B00C7242D /* ConcreteProduct3.hpp */,
+				494962B521299A8B00C7242D /* ConcreteProduct4.cpp */,
+				494962BC21299A8B00C7242D /* ConcreteProduct4.hpp */,
+				494962B421299A8B00C7242D /* ConcreteProduct5.cpp */,
+				494962BB21299A8B00C7242D /* ConcreteProduct5.hpp */,
+				494962B221299A8B00C7242D /* ConcreteProduct6.cpp */,
+				494962B921299A8B00C7242D /* ConcreteProduct6.hpp */,
+				494962E721299B0600C7242D /* Factory.cpp */,
+				494962E821299B0600C7242D /* Factory.hpp */,
+				494962EA21299B4400C7242D /* ConcreteFactory1.cpp */,
+				494962EB21299B4400C7242D /* ConcreteFactory1.hpp */,
+				494962ED21299BF400C7242D /* ConcreteFactory2.cpp */,
+				494962EE21299BF400C7242D /* ConcreteFactory2.hpp */,
+				494962F121299D4F00C7242D /* FactoryBuilder.cpp */,
+				494962F021299D4F00C7242D /* FactoryBuilder.hpp */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		494962F321299FBD00C7242D /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				494962F421299FE200C7242D /* AbstractProductA.cpp */,
+				494962F521299FE200C7242D /* AbstractProductA.hpp */,
+				494962F72129A01A00C7242D /* ConcreteProductA1.cpp */,
+				494962F82129A01A00C7242D /* ConcreteProductA1.hpp */,
+				494962FA2129A09700C7242D /* ConcreteProductA2.cpp */,
+				494962FB2129A09700C7242D /* ConcreteProductA2.hpp */,
+				494962FD2129A0F600C7242D /* AbstractProductB.cpp */,
+				494962FE2129A0F600C7242D /* AbstractProductB.hpp */,
+				494963002129A11600C7242D /* ConcreteProductB1.cpp */,
+				494963012129A11600C7242D /* ConcreteProductB1.hpp */,
+				494963032129A12000C7242D /* ConcreteProductB2.cpp */,
+				494963042129A12000C7242D /* ConcreteProductB2.hpp */,
+				494963062129A1BA00C7242D /* AbstractFactory.cpp */,
+				494963072129A1BA00C7242D /* AbstractFactory.hpp */,
+				4949630D2129A5CC00C7242D /* ConcreteFactoryA.cpp */,
+				4949630C2129A5CC00C7242D /* ConcreteFactoryA.hpp */,
+				4949630F2129A6A300C7242D /* ConcreteFactoryB.cpp */,
+				494963102129A6A300C7242D /* ConcreteFactoryB.hpp */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		49BC7C1E212EB3190099D914 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				49BC7C1F212EB3430099D914 /* Singleton1.cpp */,
+				49BC7C20212EB3430099D914 /* Singleton1.hpp */,
+				49BC7C22212EB84F0099D914 /* Singleton2.cpp */,
+				49BC7C23212EB84F0099D914 /* Singleton2.hpp */,
+			);
+			path = Singleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +260,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49BC7C24212EB84F0099D914 /* Singleton2.cpp in Sources */,
+				494963112129A6A300C7242D /* ConcreteFactoryB.cpp in Sources */,
+				494962F92129A01A00C7242D /* ConcreteProductA1.cpp in Sources */,
+				4949630E2129A5CC00C7242D /* ConcreteFactoryA.cpp in Sources */,
+				494962C221299A8B00C7242D /* ConcreteProduct4.cpp in Sources */,
+				494963052129A12000C7242D /* ConcreteProductB2.cpp in Sources */,
+				494962FC2129A09700C7242D /* ConcreteProductA2.cpp in Sources */,
+				494962EC21299B4400C7242D /* ConcreteFactory1.cpp in Sources */,
+				49BC7C21212EB3430099D914 /* Singleton1.cpp in Sources */,
+				494962C121299A8B00C7242D /* ConcreteProduct5.cpp in Sources */,
+				494962BE21299A8B00C7242D /* ConcreteProduct3.cpp in Sources */,
+				494962BD21299A8B00C7242D /* ConcreteProduct1.cpp in Sources */,
 				49496297212999A100C7242D /* main.cpp in Sources */,
+				494962F621299FE200C7242D /* AbstractProductA.cpp in Sources */,
+				494962F221299D4F00C7242D /* FactoryBuilder.cpp in Sources */,
+				494963022129A11600C7242D /* ConcreteProductB1.cpp in Sources */,
+				494963082129A1BA00C7242D /* AbstractFactory.cpp in Sources */,
+				494962EF21299BF400C7242D /* ConcreteFactory2.cpp in Sources */,
+				494962C321299A8B00C7242D /* Product.cpp in Sources */,
+				494962FF2129A0F600C7242D /* AbstractProductB.cpp in Sources */,
+				494962BF21299A8B00C7242D /* ConcreteProduct2.cpp in Sources */,
+				494962E921299B0600C7242D /* Factory.cpp in Sources */,
+				494962C021299A8B00C7242D /* ConcreteProduct6.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +401,7 @@
 		4949629B212999A100C7242D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -245,6 +410,7 @@
 		4949629C212999A100C7242D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
